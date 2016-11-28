@@ -43,5 +43,5 @@ step two:
         _barChart.YAsixFont = [UIFont systemFontOfSize:12.0];
         [self.view addSubview:_barChart];
         
-If you still dont understand, please check the code in the Demo. If you find anrthing wrong, feel free to correct me.
+If you still dont understand, please check the code in the Demo. If you find anything wrong, feel free to correct me.
 ---By a rookie.
