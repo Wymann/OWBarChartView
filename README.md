@@ -49,4 +49,4 @@ step three:
         [self.view addSubview:_barChart];
         
 If you still dont understand, please check the code in the Demo. If you find anything wrong, feel free to correct me.
----By a rookie.
+---By a rookie. (wymannchan@163.com, wymannchan@gmail.com)
