@@ -5,6 +5,11 @@ show chartview with animation.
 HOW TO USE:
 
 step one:
+    pod 'OWBarChartView', '~> 0.0.1'
+    or
+    download Demo.
+
+step two:
   Create a NSDictionary as data, the format of the dictionary is as follows:
   
   NSMutableDictionary *dataDic = [NSMutableDictionary dictionary];
@@ -30,7 +35,7 @@ step one:
     
     (Comment: "XArray", "YArray" are necessary.)
     
-step two:
+step three:
     Create a OWBarChartView.
     
     _barChart = [[OWBarChartView alloc] initWithDataDictionary:dataDic];
