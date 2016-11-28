@@ -20,25 +20,11 @@ step one:
     NSMutableDictionary *second = [NSMutableDictionary dictionary];
     [second setObject:second_values forKey:@"values"];
     [second setObject:secondColor forKey:@"color"];
-
-    NSArray *third_values = @[@(5),@(15),@(25),@(25),@(45)];
-    UIColor *thirdColor = [UIColor blueColor];
-    NSMutableDictionary *third = [NSMutableDictionary dictionary];
-    [third setObject:third_values forKey:@"values"];
-    [third setObject:thirdColor forKey:@"color"];
-    
-    NSArray *fourth_values = @[@(15),@(25),@(40),@(35),@(70)];
-    UIColor *fourthColor = [UIColor lightGrayColor];
-    NSMutableDictionary *fourth = [NSMutableDictionary dictionary];
-    [fourth setObject:fourth_values forKey:@"values"];
-    [fourth setObject:fourthColor forKey:@"color"];
     
     NSArray *XArray = @[@"Monday", @"Tuesday", @"Wednesday", @"Thursday", @"Friday"];
     NSArray *YArray = @[@(5),@(10),@(15),@(20),@(25),@(30),@(35),@(40),@(45),@(50),@(55),@(60),];
     [dataDic setObject:first forKey:@"first"];
     [dataDic setObject:second forKey:@"second"];
-//    [dataDic setObject:third forKey:@"third"];
-//    [dataDic setObject:fourth forKey:@"fourth"];
     [dataDic setObject:XArray forKey:@"XArray"];
     [dataDic setObject:YArray forKey:@"YArray"];
     
