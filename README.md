@@ -2,14 +2,14 @@
 
 show chartview with animation.
 
-HOW TO USE:
+## HOW TO USE:
 
-step one:
+### step one:
     pod 'OWBarChartView', '~> 0.0.1'
     or
     download Demo.
 
-step two:
+### step two:
   Create a NSDictionary as data, the format of the dictionary is as follows:
   
   NSMutableDictionary *dataDic = [NSMutableDictionary dictionary];
@@ -34,8 +34,8 @@ step two:
     [dataDic setObject:YArray forKey:@"YArray"];
     
     (Comment: "XArray", "YArray" are necessary.)
-    
-step three:
+    
+### step three:
     Create a OWBarChartView.
     
     _barChart = [[OWBarChartView alloc] initWithDataDictionary:dataDic];
